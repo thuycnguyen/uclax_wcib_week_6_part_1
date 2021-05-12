@@ -17,8 +17,7 @@ nav {
 .full-img {
   position: relative;
   display: block;
-  width: 640px;
-  height: 480px;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -26,8 +25,8 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  width: 640px;
-  height: 480px;
+  bottom: 0;
+  right: 0;
   background-color: rgba(0,0,0,0);
 }
 
@@ -48,11 +47,6 @@ nav {
   width: 20%;
   float: left;
   cursor: pointer;
-}
-
-.thumb-bar {
-  width: 640px;
-  margin: 0 auto;
 }
 
 .col-md-8 {
@@ -81,4 +75,16 @@ nav {
 .container {
   color: #fff;
   text-align: center;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer;
+}
+
+.thumb-bar {
+  width: 50%;
+  margin: 0 auto;
 }
